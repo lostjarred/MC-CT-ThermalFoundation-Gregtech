@@ -155,7 +155,58 @@ print("START: Thermal Foundation: Add Recipes");
         );
     }
 
+    function add_axe_recipes() {
+        recipes.addShaped(<thermalfoundation:tool.axe_copper>,
+            recipeutils.GenAxeRecipe(<ore:plateCopper>, <ore:ingotCopper>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.axe_tin>,
+            recipeutils.GenAxeRecipe(<ore:plateTin>, <ore:ingotTin>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.axe_silver>,
+            recipeutils.GenAxeRecipe(<ore:plateSilver>, <ore:ingotSilver>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.axe_lead>,
+            recipeutils.GenAxeRecipe(<ore:plateLead>, <ore:ingotLead>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.axe_aluminum>,
+            recipeutils.GenAxeRecipe(<ore:plateAluminum>, <ore:ingotAluminum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.axe_nickel>,
+            recipeutils.GenAxeRecipe(<ore:plateNickel>, <ore:ingotNickel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.axe_platinum>,
+            recipeutils.GenAxeRecipe(<ore:platePlatinum>, <ore:ingotPlatinum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.axe_steel>,
+            recipeutils.GenAxeRecipe(<ore:plateSteel>, <ore:ingotSteel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.axe_electrum>,
+            recipeutils.GenAxeRecipe(<ore:plateElectrum>, <ore:ingotElectrum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.axe_invar>,
+            recipeutils.GenAxeRecipe(<ore:plateInvar>, <ore:ingotInvar>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.axe_bronze>,
+            recipeutils.GenAxeRecipe(<ore:plateBronze>, <ore:ingotBronze>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.axe_constantan>,
+            recipeutils.GenAxeRecipe(<ore:plateConstantan>, <ore:ingotConstantan>)
+        );
+    }
+
     add_sword_recipes();
     add_shovel_recipes();
     add_pickaxe_recipes();
+    add_axe_recipes();
 print("END: Thermal Foundation: Add Recipes");
