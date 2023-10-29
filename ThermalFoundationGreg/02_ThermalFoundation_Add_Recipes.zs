@@ -5,7 +5,7 @@ import scripts.thermalfoundationgreg.utils_tool_recipes as recipeutils;
 
 print("START: Thermal Foundation: Add Recipes");
     //recipes.addShaped(output,inputs,function,action);
-    function addswordrecipes() {
+    function add_sword_recipes() {
         recipes.addShaped(<thermalfoundation:tool.sword_copper>,
             recipeutils.GenSwordRecipe(<ore:plateCopper>)
         );
@@ -105,6 +105,57 @@ print("START: Thermal Foundation: Add Recipes");
         );
     }
 
-    addswordrecipes();
+    function add_pickaxe_recipes() {
+        recipes.addShaped(<thermalfoundation:tool.pickaxe_copper>,
+            recipeutils.GenPickaxeRecipe(<ore:plateCopper>, <ore:ingotCopper>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.pickaxe_tin>,
+            recipeutils.GenPickaxeRecipe(<ore:plateTin>, <ore:ingotTin>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.pickaxe_silver>,
+            recipeutils.GenPickaxeRecipe(<ore:plateSilver>, <ore:ingotSilver>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.pickaxe_lead>,
+            recipeutils.GenPickaxeRecipe(<ore:plateLead>, <ore:ingotLead>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.pickaxe_aluminum>,
+            recipeutils.GenPickaxeRecipe(<ore:plateAluminum>, <ore:ingotAluminum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.pickaxe_nickel>,
+            recipeutils.GenPickaxeRecipe(<ore:plateNickel>, <ore:ingotNickel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.pickaxe_platinum>,
+            recipeutils.GenPickaxeRecipe(<ore:platePlatinum>, <ore:ingotPlatinum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.pickaxe_steel>,
+            recipeutils.GenPickaxeRecipe(<ore:plateSteel>, <ore:ingotSteel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.pickaxe_electrum>,
+            recipeutils.GenPickaxeRecipe(<ore:plateElectrum>, <ore:ingotElectrum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.pickaxe_invar>,
+            recipeutils.GenPickaxeRecipe(<ore:plateInvar>, <ore:ingotInvar>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.pickaxe_bronze>,
+            recipeutils.GenPickaxeRecipe(<ore:plateBronze>, <ore:ingotBronze>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.pickaxe_constantan>,
+            recipeutils.GenPickaxeRecipe(<ore:plateConstantan>, <ore:ingotConstantan>)
+        );
+    }
+
+    add_sword_recipes();
     add_shovel_recipes();
+    add_pickaxe_recipes();
 print("END: Thermal Foundation: Add Recipes");
