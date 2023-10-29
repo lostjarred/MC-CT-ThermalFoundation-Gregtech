@@ -5,3 +5,4 @@ to gregtech
 ==--CraftTweaker Prioritys--==
     600 - utils tool recipes
     510 - Remove recipes
+    500 - add recipes
