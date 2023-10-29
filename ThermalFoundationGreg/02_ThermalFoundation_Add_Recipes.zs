@@ -55,5 +55,56 @@ print("START: Thermal Foundation: Add Recipes");
         );
     }
 
+    function add_shovel_recipes() {
+        recipes.addShaped(<thermalfoundation:tool.shovel_copper>,
+            recipeutils.GenShovelRecipe(<ore:plateCopper>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shovel_tin>,
+            recipeutils.GenShovelRecipe(<ore:plateTin>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shovel_silver>,
+            recipeutils.GenShovelRecipe(<ore:plateSilver>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shovel_lead>,
+            recipeutils.GenShovelRecipe(<ore:plateLead>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shovel_aluminum>,
+            recipeutils.GenShovelRecipe(<ore:plateAluminum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shovel_nickel>,
+            recipeutils.GenShovelRecipe(<ore:plateNickel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shovel_platinum>,
+            recipeutils.GenShovelRecipe(<ore:platePlatinum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shovel_steel>,
+            recipeutils.GenShovelRecipe(<ore:plateSteel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shovel_electrum>,
+            recipeutils.GenShovelRecipe(<ore:plateElectrum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shovel_invar>,
+            recipeutils.GenShovelRecipe(<ore:plateInvar>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shovel_bronze>,
+            recipeutils.GenShovelRecipe(<ore:plateBronze>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shovel_constantan>,
+            recipeutils.GenShovelRecipe(<ore:plateConstantan>)
+        );
+    }
+
     addswordrecipes();
+    add_shovel_recipes();
 print("END: Thermal Foundation: Add Recipes");
