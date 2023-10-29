@@ -43,4 +43,14 @@ print("START: Utils : Tool Recipes");
         ];
     }
 
+    function GenHoeRecipe(plate as IIngredient, ingot as IIngredient) as IIngredient[][] {
+        val hammer = <ore:craftingToolHardHammer>;
+        val file = <ore:craftingToolFile>;
+        return [
+            [plate, ingot, file],
+            [hammer, <ore:stickWood>, null],
+            [null, <ore:stickWood>, null]
+        ];
+    }
+
 print("END: Utils : Tool Recipes");
