@@ -205,8 +205,59 @@ print("START: Thermal Foundation: Add Recipes");
         );
     }
 
+    function add_hoe_recipe() {
+        recipes.addShaped(<thermalfoundation:tool.hoe_copper>,
+            recipeutils.GenHoeRecipe(<ore:plateCopper>, <ore:ingotCopper>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hoe_tin>,
+            recipeutils.GenHoeRecipe(<ore:plateTin>, <ore:ingotTin>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hoe_silver>,
+            recipeutils.GenHoeRecipe(<ore:plateSilver>, <ore:ingotSilver>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hoe_lead>,
+            recipeutils.GenHoeRecipe(<ore:plateLead>, <ore:ingotLead>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hoe_aluminum>,
+            recipeutils.GenHoeRecipe(<ore:plateAluminum>, <ore:ingotAluminum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hoe_nickel>,
+            recipeutils.GenHoeRecipe(<ore:plateNickel>, <ore:ingotNickel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hoe_platinum>,
+            recipeutils.GenHoeRecipe(<ore:platePlatinum>, <ore:ingotPlatinum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hoe_steel>,
+            recipeutils.GenHoeRecipe(<ore:plateSteel>, <ore:ingotSteel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hoe_electrum>,
+            recipeutils.GenHoeRecipe(<ore:plateElectrum>, <ore:ingotElectrum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hoe_invar>,
+            recipeutils.GenHoeRecipe(<ore:plateInvar>, <ore:ingotInvar>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hoe_bronze>,
+            recipeutils.GenHoeRecipe(<ore:plateBronze>, <ore:ingotBronze>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hoe_constantan>,
+            recipeutils.GenHoeRecipe(<ore:plateConstantan>, <ore:ingotConstantan>)
+        );
+    }
+
     add_sword_recipes();
     add_shovel_recipes();
     add_pickaxe_recipes();
     add_axe_recipes();
+    add_hoe_recipe();
 print("END: Thermal Foundation: Add Recipes");
