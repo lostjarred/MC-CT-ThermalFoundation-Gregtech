@@ -18,4 +18,12 @@ print("START: Utils : Tool Recipes");
             [null, <ore:stickWood>, null]
         ];
     }
+
+    function GenPickaxeRecipe(plate as IIngredient, ingot as IIngredient) as IIngredient[][] {
+        return [
+            [plate, ingot, ingot],
+            [<ore:craftingToolHardHammer>, <ore:stickWood>, <ore:craftingToolFile>],
+            [null, <ore:stickWood>, null]
+        ];
+    }
 print("END: Utils : Tool Recipes");
