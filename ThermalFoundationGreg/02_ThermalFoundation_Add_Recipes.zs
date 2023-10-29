@@ -255,9 +255,72 @@ print("START: Thermal Foundation: Add Recipes");
         );
     }
 
+    function add_bow_recipes() {
+        recipes.addShaped(<thermalfoundation:tool.bow_copper>,
+            recipeutils.GenBowRecipe(<ore:stickCopper>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.bow_tin>,
+            recipeutils.GenBowRecipe(<ore:stickTin>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.bow_silver>,
+            recipeutils.GenBowRecipe(<ore:stickSilver>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.bow_lead>,
+            recipeutils.GenBowRecipe(<ore:stickLead>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.bow_aluminum>,
+            recipeutils.GenBowRecipe(<ore:stickAluminum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.bow_nickel>,
+            recipeutils.GenBowRecipe(<ore:stickNickel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.bow_platinum>,
+            recipeutils.GenBowRecipe(<ore:stickPlatinum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.bow_steel>,
+            recipeutils.GenBowRecipe(<ore:stickSteel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.bow_electrum>,
+            recipeutils.GenBowRecipe(<ore:stickElectrum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.bow_invar>,
+            recipeutils.GenBowRecipe(<ore:stickInvar>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.bow_bronze>,
+            recipeutils.GenBowRecipe(<ore:stickBronze>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.bow_constantan>,
+            recipeutils.GenBowRecipe(<ore:stickConstantan>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.bow_iron>,
+            recipeutils.GenBowRecipe(<ore:stickIron>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.bow_diamond>,
+            recipeutils.GenBowRecipe(<ore:stickDiamond>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.bow_gold>,
+            recipeutils.GenBowRecipe(<ore:stickGold>)
+        );
+    }
+
     add_sword_recipes();
     add_shovel_recipes();
     add_pickaxe_recipes();
     add_axe_recipes();
     add_hoe_recipe();
+    add_bow_recipes();
 print("END: Thermal Foundation: Add Recipes");
