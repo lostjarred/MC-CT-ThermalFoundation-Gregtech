@@ -53,4 +53,12 @@ print("START: Utils : Tool Recipes");
         ];
     }
 
+    function GenBowRecipe(metalrod as IIngredient) as IIngredient[][] {
+        return [
+            [null, metalrod, <ore:string>],
+            [<ore:stickWood>, null, <ore:string>],
+            [null, metalrod, <ore:string>]
+        ];
+    }
+
 print("END: Utils : Tool Recipes");
