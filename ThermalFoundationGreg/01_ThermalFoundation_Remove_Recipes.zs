@@ -85,7 +85,35 @@ print("START: Thermal Foundation: Remove Recipes");
             recipes.remove(<thermalfoundation:tool.pickaxe_constantan>);
     }
 
+    function remove_axes() {
+        //copper
+            recipes.remove(<thermalfoundation:tool.axe_copper>);
+        //tin
+            recipes.remove(<thermalfoundation:tool.axe_tin>);
+        //silver
+            recipes.remove(<thermalfoundation:tool.axe_silver>);
+        //lead
+            recipes.remove(<thermalfoundation:tool.axe_lead>);
+        //aluminum
+            recipes.remove(<thermalfoundation:tool.axe_aluminum>);
+        //nickel
+            recipes.remove(<thermalfoundation:tool.axe_nickel>);
+        //platinum
+            recipes.remove(<thermalfoundation:tool.axe_platinum>);
+        //steel
+            recipes.remove(<thermalfoundation:tool.axe_steel>);
+        //electrum
+            recipes.remove(<thermalfoundation:tool.axe_electrum>);
+        //invar
+            recipes.remove(<thermalfoundation:tool.axe_invar>);
+        //bronze
+            recipes.remove(<thermalfoundation:tool.axe_bronze>);
+        //constantan
+            recipes.remove(<thermalfoundation:tool.axe_constantan>);
+    }
+
     remove_swords();
     remove_shovels();
     remove_pickaxes();
+    remove_axes();
 print("END: Thermal Foundation: Remove Recipes");
