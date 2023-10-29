@@ -4,25 +4,31 @@ import crafttweaker.item.IIngredient;
 
 print("START: Utils : Tool Recipes");
     function GenSwordRecipe(plate as IIngredient) as IIngredient[][] {
+        val hammer = <ore:craftingToolHardHammer>;
+        val file = <ore:craftingToolFile>;
         return [
             [null, plate, null],
-            [<ore:craftingToolHardHammer>, plate, <ore:craftingToolFile>],
+            [hammer, plate, file],
             [null, <ore:stickWood>, null]
         ];
     }
 
     function GenShovelRecipe(plate as IIngredient) as IIngredient[][] {
+        val hammer = <ore:craftingToolHardHammer>;
+        val file = <ore:craftingToolFile>;
         return [
-            [<ore:craftingToolHardHammer>, plate, <ore:craftingToolFile>],
+            [hammer, plate, file],
             [null, <ore:stickWood>, null],
             [null, <ore:stickWood>, null]
         ];
     }
 
     function GenPickaxeRecipe(plate as IIngredient, ingot as IIngredient) as IIngredient[][] {
+        val hammer = <ore:craftingToolHardHammer>;
+        val file = <ore:craftingToolFile>;
         return [
             [plate, ingot, ingot],
-            [<ore:craftingToolHardHammer>, <ore:stickWood>, <ore:craftingToolFile>],
+            [hammer, <ore:stickWood>, file],
             [null, <ore:stickWood>, null]
         ];
     }
