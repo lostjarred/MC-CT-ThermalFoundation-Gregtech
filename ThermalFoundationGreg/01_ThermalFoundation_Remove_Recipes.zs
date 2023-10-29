@@ -139,9 +139,43 @@ print("START: Thermal Foundation: Remove Recipes");
             recipes.remove(<thermalfoundation:tool.hoe_constantan>);
     }
 
+    function remove_bows() {
+        //copper
+            recipes.remove(<thermalfoundation:tool.bow_copper>);
+        //tin
+            recipes.remove(<thermalfoundation:tool.bow_tin>);
+        //silver
+            recipes.remove(<thermalfoundation:tool.bow_silver>);
+        //lead
+            recipes.remove(<thermalfoundation:tool.bow_lead>);
+        //aluminum
+            recipes.remove(<thermalfoundation:tool.bow_aluminum>);
+        //nickel
+            recipes.remove(<thermalfoundation:tool.bow_nickel>);
+        //platinum
+            recipes.remove(<thermalfoundation:tool.bow_platinum>);
+        //steel
+            recipes.remove(<thermalfoundation:tool.bow_steel>);
+        //electrum
+            recipes.remove(<thermalfoundation:tool.bow_electrum>);
+        //invar
+            recipes.remove(<thermalfoundation:tool.bow_invar>);
+        //bronze
+            recipes.remove(<thermalfoundation:tool.bow_bronze>);
+        //constantan
+            recipes.remove(<thermalfoundation:tool.bow_constantan>);
+        //iron
+            recipes.remove(<thermalfoundation:tool.bow_iron>);
+        //diamond
+            recipes.remove(<thermalfoundation:tool.bow_diamond>);
+        //gold
+            recipes.remove(<thermalfoundation:tool.bow_gold>);
+    }
+
     remove_swords();
     remove_shovels();
     remove_pickaxes();
     remove_axes();
     remove_hoes();
+    remove_bows();
 print("END: Thermal Foundation: Remove Recipes");
