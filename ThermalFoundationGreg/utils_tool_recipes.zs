@@ -84,7 +84,7 @@ print("START: Utils : Tool Recipes");
             [plate, plate, plate],
             [plate, <ore:stickWood>, plate],
             [null, <ore:stickWood>, null]
-        ]
+        ];
     }
 
 print("END: Utils : Tool Recipes");
