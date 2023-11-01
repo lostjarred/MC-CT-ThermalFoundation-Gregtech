@@ -205,6 +205,39 @@ print("START: Thermal Foundation: Remove Recipes");
             recipes.remove(<thermalfoundation:tool.fishing_rod_gold>);
     }
 
+    function remove_sickle() {
+        //copper
+            recipes.remove(<thermalfoundation:tool.sickle_copper>);
+        //tin
+            recipes.remove(<thermalfoundation:tool.sickle_rod_tin>);
+        //silver
+            recipes.remove(<thermalfoundation:tool.sickle_rod_silver>);
+        //lead
+            recipes.remove(<thermalfoundation:tool.sickle_rod_lead>);
+        //aluminum
+            recipes.remove(<thermalfoundation:tool.sickle_rod_aluminum>);
+        //nickel
+            recipes.remove(<thermalfoundation:tool.sickle_rod_nickel>);
+        //platinum
+            recipes.remove(<thermalfoundation:tool.sickle_rod_platinum>);
+        //steel
+            recipes.remove(<thermalfoundation:tool.sickle_rod_steel>);
+        //electrum
+            recipes.remove(<thermalfoundation:tool.sickle_rod_electrum>);
+        //invar
+            recipes.remove(<thermalfoundation:tool.sickle_rod_invar>);
+        //bronze
+            recipes.remove(<thermalfoundation:tool.sickle_rod_bronze>);
+        //constantan
+            recipes.remove(<thermalfoundation:tool.sickle_rod_constantan>);
+        //iron
+            recipes.remove(<thermalfoundation:tool.sickle_rod_iron>);
+        //diamond
+            recipes.remove(<thermalfoundation:tool.sickle_rod_diamond>);
+        //gold
+            recipes.remove(<thermalfoundation:tool.sickle_rod_gold>);
+    }
+
     remove_swords();
     remove_shovels();
     remove_pickaxes();
@@ -212,4 +245,5 @@ print("START: Thermal Foundation: Remove Recipes");
     remove_hoes();
     remove_bows();
     remove_fishing_rods();
+    remove_sickle();
 print("END: Thermal Foundation: Remove Recipes");
