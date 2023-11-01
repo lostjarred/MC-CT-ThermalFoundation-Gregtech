@@ -69,4 +69,14 @@ print("START: Utils : Tool Recipes");
         ];
     }
 
+    function GenSickleRecipe(plate as IIngredient, ingot as IIngredient) as IIngredient[][] {
+        val hammer = <ore:craftingToolHardHammer>;
+        val file = <ore:craftingToolFile>;
+        return [
+            [hammer, plate, file],
+            [null, null, plate],
+            [<ore:stickWood>, ingot, null]
+        ];
+    }
+
 print("END: Utils : Tool Recipes");
