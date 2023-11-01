@@ -61,4 +61,12 @@ print("START: Utils : Tool Recipes");
         ];
     }
 
+    function GenFishingRodRecipe(metalrod as IIngredient) as IIngredient[][]{
+        return [
+            [null, null, metalrod],
+            [null, metalrod, <ore:string>],
+            [<ore:stickWood>, null, <ore:string>]
+        ];
+    }
+
 print("END: Utils : Tool Recipes");
