@@ -205,7 +205,7 @@ print("START: Thermal Foundation: Add Recipes");
         );
     }
 
-    function add_hoe_recipe() {
+    function add_hoe_recipes() {
         recipes.addShaped(<thermalfoundation:tool.hoe_copper>,
             recipeutils.GenHoeRecipe(<ore:plateCopper>, <ore:ingotCopper>)
         );
@@ -317,7 +317,7 @@ print("START: Thermal Foundation: Add Recipes");
         );
     }
 
-    function add_fishing_rods() {
+    function add_fishing_rod_recipes() {
         recipes.addShaped(<thermalfoundation:tool.fishing_rod_copper>,
             recipeutils.GenFishingRodRecipe(<ore:stickCopper>)
         );
@@ -379,7 +379,7 @@ print("START: Thermal Foundation: Add Recipes");
         );
     }
 
-    function add_sickle_recipe() {
+    function add_sickle_recipes() {
         recipes.addShaped(<thermalfoundation:tool.sickle_copper>,
             recipeutils.GenSickleRecipe(<ore:plateCopper>, <ore:ingotCopper>)
         );
@@ -441,12 +441,75 @@ print("START: Thermal Foundation: Add Recipes");
         );
     }
 
+    function add_hammer_recipes() {
+        recipes.addShaped(<thermalfoundation:tool.hammer_copper>,
+            recipeutils.GenHammerRecipe(<ore:plateCopper>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hammer_tin>,
+            recipeutils.GenHammerRecipe(<ore:plateTin>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hammer_silver>,
+            recipeutils.GenHammerRecipe(<ore:plateSilver>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hammer_lead>,
+            recipeutils.GenHammerRecipe(<ore:plateLead>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hammer_aluminum>,
+            recipeutils.GenHammerRecipe(<ore:plateAluminum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hammer_nickel>,
+            recipeutils.GenHammerRecipe(<ore:plateNickel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hammer_platinum>,
+            recipeutils.GenHammerRecipe(<ore:platePlatinum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hammer_steel>,
+            recipeutils.GenHammerRecipe(<ore:plateSteel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hammer_electrum>,
+            recipeutils.GenHammerRecipe(<ore:plateElectrum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hammer_invar>,
+            recipeutils.GenHammerRecipe(<ore:plateInvar>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hammer_bronze>,
+            recipeutils.GenHammerRecipe(<ore:plateBronze>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hammer_constantan>,
+            recipeutils.GenHammerRecipe(<ore:plateConstantan>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hammer_iron>,
+            recipeutils.GenHammerRecipe(<ore:plateIron>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hammer_diamond>,
+            recipeutils.GenHammerRecipe(<ore:plateDiamond>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.hammer_gold>,
+            recipeutils.GenHammerRecipe(<ore:plateGold>)
+        );
+    }
+
     add_sword_recipes();
     add_shovel_recipes();
     add_pickaxe_recipes();
     add_axe_recipes();
-    add_hoe_recipe();
+    add_hoe_recipes();
     add_bow_recipes();
-    add_fishing_rods();
-    add_sickle_recipe();
+    add_fishing_rod_recipes();
+    add_sickle_recipes();
+    add_hammer_recipes();
 print("END: Thermal Foundation: Add Recipes");
