@@ -379,6 +379,68 @@ print("START: Thermal Foundation: Add Recipes");
         );
     }
 
+    function add_sickle_recipe() {
+        recipes.addShaped(<thermalfoundation:tool.sickle_copper>,
+            recipeutils.GenSickleRecipe(<ore:plateCopper>, <ore:ingotCopper>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.sickle_tin>,
+            recipeutils.GenSickleRecipe(<ore:plateTin>, <ore:ingotTin>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.sickle_silver>,
+            recipeutils.GenSickleRecipe(<ore:plateSilver>, <ore:ingotSilver>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.sickle_lead>,
+            recipeutils.GenSickleRecipe(<ore:plateLead>, <ore:ingotLead>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.sickle_aluminum>,
+            recipeutils.GenSickleRecipe(<ore:plateAluminum>, <ore:ingotAluminum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.sickle_nickel>,
+            recipeutils.GenSickleRecipe(<ore:plateNickel>, <ore:ingotNickel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.sickle_platinum>,
+            recipeutils.GenSickleRecipe(<ore:platePlatinum>, <ore:ingotPlatinum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.sickle_steel>,
+            recipeutils.GenSickleRecipe(<ore:plateSteel>, <ore:ingotSteel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.sickle_electrum>,
+            recipeutils.GenSickleRecipe(<ore:plateElectrum>, <ore:ingotElectrum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.sickle_invar>,
+            recipeutils.GenSickleRecipe(<ore:plateInvar>, <ore:ingotInvar>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.sickle_bronze>,
+            recipeutils.GenSickleRecipe(<ore:plateBronze>, <ore:ingotBronze>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.sickle_constantan>,
+            recipeutils.GenSickleRecipe(<ore:plateConstantan>, <ore:ingotConstantan>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.sickle_iron>,
+            recipeutils.GenSickleRecipe(<ore:plateIron>, <ore:ingotIron>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.sickle_diamond>,
+            recipeutils.GenSickleRecipe(<ore:plateDiamond>, <ore:gemDiamond>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.sickle_gold>,
+            recipeutils.GenSickleRecipe(<ore:plateGold>, <ore:ingotGold>)
+        );
+    }
+
     add_sword_recipes();
     add_shovel_recipes();
     add_pickaxe_recipes();
@@ -386,4 +448,5 @@ print("START: Thermal Foundation: Add Recipes");
     add_hoe_recipe();
     add_bow_recipes();
     add_fishing_rods();
+    add_sickle_recipe();
 print("END: Thermal Foundation: Add Recipes");
