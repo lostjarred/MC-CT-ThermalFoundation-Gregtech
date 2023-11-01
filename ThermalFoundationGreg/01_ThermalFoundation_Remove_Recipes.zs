@@ -209,33 +209,33 @@ print("START: Thermal Foundation: Remove Recipes");
         //copper
             recipes.remove(<thermalfoundation:tool.sickle_copper>);
         //tin
-            recipes.remove(<thermalfoundation:tool.sickle_rod_tin>);
+            recipes.remove(<thermalfoundation:tool.sickle_tin>);
         //silver
-            recipes.remove(<thermalfoundation:tool.sickle_rod_silver>);
+            recipes.remove(<thermalfoundation:tool.sickle_silver>);
         //lead
-            recipes.remove(<thermalfoundation:tool.sickle_rod_lead>);
+            recipes.remove(<thermalfoundation:tool.sickle_lead>);
         //aluminum
-            recipes.remove(<thermalfoundation:tool.sickle_rod_aluminum>);
+            recipes.remove(<thermalfoundation:tool.sickle_aluminum>);
         //nickel
-            recipes.remove(<thermalfoundation:tool.sickle_rod_nickel>);
+            recipes.remove(<thermalfoundation:tool.sickle_nickel>);
         //platinum
-            recipes.remove(<thermalfoundation:tool.sickle_rod_platinum>);
+            recipes.remove(<thermalfoundation:tool.sickle_platinum>);
         //steel
-            recipes.remove(<thermalfoundation:tool.sickle_rod_steel>);
+            recipes.remove(<thermalfoundation:tool.sickle_steel>);
         //electrum
-            recipes.remove(<thermalfoundation:tool.sickle_rod_electrum>);
+            recipes.remove(<thermalfoundation:tool.sickle_electrum>);
         //invar
-            recipes.remove(<thermalfoundation:tool.sickle_rod_invar>);
+            recipes.remove(<thermalfoundation:tool.sickle_invar>);
         //bronze
-            recipes.remove(<thermalfoundation:tool.sickle_rod_bronze>);
+            recipes.remove(<thermalfoundation:tool.sickle_bronze>);
         //constantan
-            recipes.remove(<thermalfoundation:tool.sickle_rod_constantan>);
+            recipes.remove(<thermalfoundation:tool.sickle_constantan>);
         //iron
-            recipes.remove(<thermalfoundation:tool.sickle_rod_iron>);
+            recipes.remove(<thermalfoundation:tool.sickle_iron>);
         //diamond
-            recipes.remove(<thermalfoundation:tool.sickle_rod_diamond>);
+            recipes.remove(<thermalfoundation:tool.sickle_diamond>);
         //gold
-            recipes.remove(<thermalfoundation:tool.sickle_rod_gold>);
+            recipes.remove(<thermalfoundation:tool.sickle_gold>);
     }
 
     remove_swords();
