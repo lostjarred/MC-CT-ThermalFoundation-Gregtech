@@ -317,10 +317,73 @@ print("START: Thermal Foundation: Add Recipes");
         );
     }
 
+    function add_fishing_rods() {
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_copper>,
+            recipeutils.GenFishingRodRecipe(<ore:stickCopper>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_tin>,
+            recipeutils.GenFishingRodRecipe(<ore:stickTin>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_silver>,
+            recipeutils.GenFishingRodRecipe(<ore:stickSilver>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_lead>,
+            recipeutils.GenFishingRodRecipe(<ore:stickLead>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_aluminum>,
+            recipeutils.GenFishingRodRecipe(<ore:stickAluminum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_nickel>,
+            recipeutils.GenFishingRodRecipe(<ore:stickNickel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_platinum>,
+            recipeutils.GenFishingRodRecipe(<ore:stickPlatinum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_steel>,
+            recipeutils.GenFishingRodRecipe(<ore:stickSteel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_electrum>,
+            recipeutils.GenFishingRodRecipe(<ore:stickElectrum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_invar>,
+            recipeutils.GenFishingRodRecipe(<ore:stickInvar>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_bronze>,
+            recipeutils.GenFishingRodRecipe(<ore:stickBronze>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_constantan>,
+            recipeutils.GenFishingRodRecipe(<ore:stickConstantan>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_iron>,
+            recipeutils.GenFishingRodRecipe(<ore:stickIron>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_diamond>,
+            recipeutils.GenFishingRodRecipe(<ore:stickDiamond>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.fishing_rod_gold>,
+            recipeutils.GenFishingRodRecipe(<ore:stickGold>)
+        );
+    }
+
     add_sword_recipes();
     add_shovel_recipes();
     add_pickaxe_recipes();
     add_axe_recipes();
     add_hoe_recipe();
     add_bow_recipes();
+    add_fishing_rods();
 print("END: Thermal Foundation: Add Recipes");
