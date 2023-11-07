@@ -503,6 +503,68 @@ print("START: Thermal Foundation: Add Recipes");
         );
     }
 
+    function add_excavtor_recipes() {
+        recipes.addShaped(<thermalfoundation:tool.excavator_copper>,
+            recipeutils.GenExcavatorRecipe(<ore:plateCopper>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.excavator_tin>,
+            recipeutils.GenExcavatorRecipe(<ore:plateTin>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.excavator_silver>,
+            recipeutils.GenExcavatorRecipe(<ore:plateSilver>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.excavator_lead>,
+            recipeutils.GenExcavatorRecipe(<ore:plateLead>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.excavator_aluminum>,
+            recipeutils.GenExcavatorRecipe(<ore:plateAluminum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.excavator_nickel>,
+            recipeutils.GenExcavatorRecipe(<ore:plateNickel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.excavator_platinum>,
+            recipeutils.GenExcavatorRecipe(<ore:platePlatinum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.excavator_steel>,
+            recipeutils.GenExcavatorRecipe(<ore:plateSteel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.excavator_electrum>,
+            recipeutils.GenExcavatorRecipe(<ore:plateElectrum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.excavator_invar>,
+            recipeutils.GenExcavatorRecipe(<ore:plateInvar>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.excavator_bronze>,
+            recipeutils.GenExcavatorRecipe(<ore:plateBronze>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.excavator_constantan>,
+            recipeutils.GenExcavatorRecipe(<ore:plateConstantan>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.excavator_iron>,
+            recipeutils.GenExcavatorRecipe(<ore:plateIron>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.excavator_diamond>,
+            recipeutils.GenExcavatorRecipe(<ore:plateDiamond>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.excavator_gold>,
+            recipeutils.GenExcavatorRecipe(<ore:plateGold>)
+        );
+    }
+
     add_sword_recipes();
     add_shovel_recipes();
     add_pickaxe_recipes();
@@ -512,4 +574,5 @@ print("START: Thermal Foundation: Add Recipes");
     add_fishing_rod_recipes();
     add_sickle_recipes();
     add_hammer_recipes();
+    add_excavtor_recipes();
 print("END: Thermal Foundation: Add Recipes");
