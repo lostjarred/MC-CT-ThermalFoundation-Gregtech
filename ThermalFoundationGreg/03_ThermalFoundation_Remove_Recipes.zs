@@ -7,6 +7,8 @@ print("START: Thermal Foundation: Remove Recipes");
     function Remove_Gear_Recipes() {
         //iron
             recipes.remove(<thermalfoundation:material:24>);
+        //gold
+            recipes.remove(<thermalfoundation:material:25>);
     }
     
     Remove_Gear_Recipes();
