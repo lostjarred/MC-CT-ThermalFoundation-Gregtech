@@ -89,4 +89,14 @@ print("START: Utils : Tool Recipes");
         ];
     }
 
+    function GenExcavatorRecipe(plate as IIngredient) as IIngredient[][] {
+        val hammer = <ore:craftingToolHardHammer>;
+        val file = <ore:craftingToolFile>;
+        return [
+            [hammer, plate, file],
+            [plate, <ore:stickWood>, plate],
+            [null, <ore:stickWood>, null]
+        ];
+    }
+
 print("END: Utils : Tool Recipes");
