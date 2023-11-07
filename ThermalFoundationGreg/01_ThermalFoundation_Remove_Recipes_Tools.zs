@@ -2,7 +2,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-print("START: Thermal Foundation: Remove Recipes");
+print("START: Thermal Foundation: Remove Recipes Tools");
     function remove_swords() {
         //recipes.remove(output, NBTMatch);
         //copper
@@ -348,4 +348,4 @@ print("START: Thermal Foundation: Remove Recipes");
     remove_hammer();
     remove_excavators();
     remove_shield_recipes();
-print("END: Thermal Foundation: Remove Recipes");
+print("END: Thermal Foundation: Remove Recipes Tools");

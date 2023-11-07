@@ -3,7 +3,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import scripts.thermalfoundationgreg.utils_tool_recipes as recipeutils;
 
-print("START: Thermal Foundation: Add Recipes");
+print("START: Thermal Foundation: Add Recipes Tools");
     //recipes.addShaped(output,inputs,function,action);
     function add_sword_recipes() {
         recipes.addShaped(<thermalfoundation:tool.sword_copper>,
@@ -638,4 +638,4 @@ print("START: Thermal Foundation: Add Recipes");
     add_hammer_recipes();
     add_excavtor_recipes();
     add_shield_recipes();
-print("END: Thermal Foundation: Add Recipes");
+print("END: Thermal Foundation: Add Recipes Tools");
