@@ -11,9 +11,13 @@ Replaces
         -hoes
         -bows
         -fishing rods
+        -Hammers
+        -Excavators
+        -Shields
 
 
 ==--CraftTweaker Prioritys--==
+    NONE - GTMaterials
     600 - utils tool recipes
-    510 - Remove recipes
-    500 - add recipes
+    510 - Remove recipes tools, Remove Recipes
+    500 - add recipes tools
