@@ -15,6 +15,8 @@ print("START: Thermal Foundation: Remove Recipes");
             recipes.remove(<thermalfoundation:material:27>);
         //copper
             recipes.remove(<thermalfoundation:material:256>);
+        //tin 
+            recipes.remove(<thermalfoundation:material:257>);
     }
     
     Remove_Gear_Recipes();
