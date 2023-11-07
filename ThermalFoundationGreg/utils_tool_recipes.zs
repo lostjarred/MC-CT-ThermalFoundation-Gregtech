@@ -80,10 +80,12 @@ print("START: Utils : Tool Recipes");
     }
 
     function GenHammerRecipe(plate as IIngredient) as IIngredient[][] {
+        val hammer = <ore:craftingToolHardHammer>;
+        val file = <ore:craftingToolFile>;
         return [
             [plate, plate, plate],
             [plate, <ore:stickWood>, plate],
-            [null, <ore:stickWood>, null]
+            [file, <ore:stickWood>, hammer]
         ];
     }
 
