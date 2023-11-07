@@ -17,6 +17,8 @@ print("START: Thermal Foundation: Remove Recipes");
             recipes.remove(<thermalfoundation:material:256>);
         //tin 
             recipes.remove(<thermalfoundation:material:257>);
+        //silver
+            recipes.remove(<thermalfoundation:material:258>);
     }
     
     Remove_Gear_Recipes();
