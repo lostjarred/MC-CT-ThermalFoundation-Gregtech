@@ -99,4 +99,12 @@ print("START: Utils : Tool Recipes");
         ];
     }
 
+    function GenShieldRecipe(plate as IIngredient) as IIngredient[][] {
+        return [
+            [plate, plate, plate],
+            [plate, <minecraft:shield>, plate],
+            [null, plate, null]
+        ];
+    }
+
 print("END: Utils : Tool Recipes");
