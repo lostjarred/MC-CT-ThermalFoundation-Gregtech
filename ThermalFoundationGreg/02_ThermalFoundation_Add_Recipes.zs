@@ -565,6 +565,68 @@ print("START: Thermal Foundation: Add Recipes");
         );
     }
 
+    function add_shield_recipes() {
+        recipes.addShaped(<thermalfoundation:tool.shield_copper>,
+            recipeutils.GenShieldRecipe(<ore:plateCopper>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shield_tin>,
+            recipeutils.GenShieldRecipe(<ore:plateTin>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shield_silver>,
+            recipeutils.GenShieldRecipe(<ore:plateSilver>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shield_lead>,
+            recipeutils.GenShieldRecipe(<ore:plateLead>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shield_aluminum>,
+            recipeutils.GenShieldRecipe(<ore:plateAluminum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shield_nickel>,
+            recipeutils.GenShieldRecipe(<ore:plateNickel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shield_platinum>,
+            recipeutils.GenShieldRecipe(<ore:platePlatinum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shield_steel>,
+            recipeutils.GenShieldRecipe(<ore:plateSteel>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shield_electrum>,
+            recipeutils.GenShieldRecipe(<ore:plateElectrum>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shield_invar>,
+            recipeutils.GenShieldRecipe(<ore:plateInvar>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shield_bronze>,
+            recipeutils.GenShieldRecipe(<ore:plateBronze>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shield_constantan>,
+            recipeutils.GenShieldRecipe(<ore:plateConstantan>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shield_iron>,
+            recipeutils.GenShieldRecipe(<ore:plateIron>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shield_diamond>,
+            recipeutils.GenShieldRecipe(<ore:plateDiamond>)
+        );
+
+        recipes.addShaped(<thermalfoundation:tool.shield_gold>,
+            recipeutils.GenShieldRecipe(<ore:plateGold>)
+        );
+    }
+
     add_sword_recipes();
     add_shovel_recipes();
     add_pickaxe_recipes();
@@ -575,4 +637,5 @@ print("START: Thermal Foundation: Add Recipes");
     add_sickle_recipes();
     add_hammer_recipes();
     add_excavtor_recipes();
+    add_shield_recipes();
 print("END: Thermal Foundation: Add Recipes");
