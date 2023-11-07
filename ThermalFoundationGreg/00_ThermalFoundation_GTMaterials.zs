@@ -25,9 +25,15 @@ function add_tin_materials() {
     tin_material.addFlags("generate_gear");
 }
 
+function add_silver_materials() {
+    var silver_material = <material:silver>;
+    silver_material.addFlags("generate_gear");
+}
+
 add_gold_materials();
 add_emerald_materials();
 add_copper_materials();
 add_tin_materials();
+add_silver_materials();
 
 print("END: Thermal Foundation: Gregtech Materials");
