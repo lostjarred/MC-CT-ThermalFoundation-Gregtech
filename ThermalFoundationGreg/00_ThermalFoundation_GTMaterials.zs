@@ -15,7 +15,13 @@ function add_copper_materials() {
     copper_material.addFlags("generate_gear");
 }
 
+function add_emerald_materials() {
+    var emerald_material = <material:emerald>;
+    emerald_material.addFlags("generate_gear");
+}
+
 add_gold_materials();
 add_copper_materials();
+add_emerald_materials();
 
 print("END: Thermal Foundation: Gregtech Materials");
