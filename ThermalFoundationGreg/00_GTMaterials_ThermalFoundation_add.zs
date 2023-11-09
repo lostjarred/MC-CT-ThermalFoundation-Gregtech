@@ -2,7 +2,7 @@
 import mods.gregtech.material.MaterialRegistry;
 import mods.gregtech.material.Material;
 
-print("START: Thermal Foundation: Gregtech Materials");
+print("START: Thermal Foundation: Gregtech Materials : add");
 
 function add_gold_materials() {
     var gold_material = <material:gold>;
@@ -87,4 +87,4 @@ add_iridium_materials();
 add_electrum_materials();
 add_constantan_materials();
 
-print("END: Thermal Foundation: Gregtech Materials");
+print("END: Thermal Foundation: Gregtech Materials : add");
