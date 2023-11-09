@@ -50,6 +50,11 @@ function add_iridium_materials() {
     iridium_material.addFlags("generate_gear");
 }
 
+function add_electrum_materials() {
+    var electrum_material = <material:electrum>;
+    electrum_material.addFlags("generate_gear");
+}
+
 add_gold_materials();
 add_emerald_materials();
 add_copper_materials();
