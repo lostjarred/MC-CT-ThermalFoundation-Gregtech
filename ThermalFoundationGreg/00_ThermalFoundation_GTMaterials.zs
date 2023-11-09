@@ -35,11 +35,17 @@ function add_lead_materials() {
     lead_material.addFlags("generate_gear");
 }
 
+function add_nickel_meterials() {
+    var nickel_material = <material:nickel>;
+    nickel_material.addFlags("generate_gear");
+}
+
 add_gold_materials();
 add_emerald_materials();
 add_copper_materials();
 add_tin_materials();
 add_silver_materials();
 add_lead_materials();
+add_nickel_meterials();
 
 print("END: Thermal Foundation: Gregtech Materials");
