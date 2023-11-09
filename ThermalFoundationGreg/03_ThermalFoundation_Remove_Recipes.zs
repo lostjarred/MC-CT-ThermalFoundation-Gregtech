@@ -29,6 +29,9 @@ print("START: Thermal Foundation: Remove Recipes");
             recipes.remove(<thermalfoundation:material:262>);
         //iridium
             recipes.remove(<thermalfoundation:material:263>);
+        //manainfused
+        //steel
+            recipes.remove(<thermalfoundation:material:288>);
     }
     
     Remove_Gear_Recipes();
