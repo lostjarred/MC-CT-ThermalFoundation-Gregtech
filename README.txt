@@ -23,4 +23,9 @@ Replaces
     500 - add recipes tools
 
 ==-- TODO --==
-Mitheral - Mana Infused - Gregtech Material
+Gregtech Add Materials
+        - Mitheral - Mana Infused
+        - Constantan
+        - Signalum
+        - Lumium
+        - Enderium
