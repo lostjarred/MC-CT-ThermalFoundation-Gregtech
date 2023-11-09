@@ -32,6 +32,8 @@ print("START: Thermal Foundation: Remove Recipes");
         //manainfused
         //steel
             recipes.remove(<thermalfoundation:material:288>);
+        //electrum
+            recipes.remove(<thermalfoundation:material:289>);
     }
     
     Remove_Gear_Recipes();
