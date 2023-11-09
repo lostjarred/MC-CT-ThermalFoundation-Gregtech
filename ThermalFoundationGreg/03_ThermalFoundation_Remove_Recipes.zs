@@ -23,6 +23,8 @@ print("START: Thermal Foundation: Remove Recipes");
             recipes.remove(<thermalfoundation:material:259>);
         //aluminium
             recipes.remove(<thermalfoundation:material:260>);
+        //nickel
+            recipes.remove(<thermalfoundation:material:261>);
     }
     
     Remove_Gear_Recipes();
