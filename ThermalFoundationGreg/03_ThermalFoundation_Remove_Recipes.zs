@@ -34,6 +34,8 @@ print("START: Thermal Foundation: Remove Recipes");
             recipes.remove(<thermalfoundation:material:288>);
         //electrum
             recipes.remove(<thermalfoundation:material:289>);
+        //invar
+            recipes.remove(<thermalfoundation:material:290>);
     }
     
     Remove_Gear_Recipes();
