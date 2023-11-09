@@ -40,6 +40,11 @@ function add_nickel_meterials() {
     nickel_material.addFlags("generate_gear");
 }
 
+function add_platinum_materials() {
+    var platiunum_material = <material:platinum>;
+    platiunum_material.addFlags("generate_gear");
+}
+
 add_gold_materials();
 add_emerald_materials();
 add_copper_materials();
