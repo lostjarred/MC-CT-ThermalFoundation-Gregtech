@@ -50,9 +50,29 @@ function add_iridium_materials() {
     iridium_material.addFlags("generate_gear");
 }
 
+function add_manainfused_materials() {
+    //BLANK
+}
+
 function add_electrum_materials() {
     var electrum_material = <material:electrum>;
     electrum_material.addFlags("generate_gear");
+}
+
+function add_constantan_materials() {
+    //BLANK
+}
+
+function add_signalum_materials() {
+    //Blank
+}
+
+function add_lumium_materials() {
+    //Blank
+}
+
+function add_enderium_materials() {
+    //Blank
 }
 
 add_gold_materials();
@@ -64,5 +84,7 @@ add_lead_materials();
 add_nickel_meterials();
 add_platinum_materials();
 add_iridium_materials();
+add_electrum_materials();
+add_constantan_materials();
 
 print("END: Thermal Foundation: Gregtech Materials");
