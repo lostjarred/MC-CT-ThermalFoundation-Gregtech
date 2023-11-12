@@ -50,9 +50,16 @@ print("START: Thermal Foundation: Gregtech Materials : Create");
 
     function add_lumium_materials() {
         /*
-            Material: 
+            Material: 3 x Tin + Silver + 4 x Glowstone
             Color: 0xDEE598
         */
+        var lumium_material_builder = MaterialBuilder(32003, "lumium")
+        .ingot()
+        .color(0xDEE598)
+        .iconSet("METALLIC")
+        .components([<material:tin> * 3, <material:silver> * 1, <material:glowstone> * 4])
+        .flags(["generate_plate", "generate_gear"])
+        .build();
     }
 
     function add_enderium_materials() {
