@@ -7,7 +7,17 @@ import mods.gregtech.material.MaterialBuilder;
 print("START: Thermal Foundation: Gregtech Materials : Create");
 
     function add_manainfused_materials() {
-        //BLANK
+        /*
+            Material: Iron ?
+            Color: 0x659ABB
+        */
+        var manainfused_material_builder = MaterialBuilder(32001, "mithril")
+        .ingot()
+        .color(0x659ABB)
+        .iconSet("SHINY")
+        .components([<material:iron> * 1])
+        .flags(["generate_plate", "generate_gear"])
+        .build();
     }
     
     function add_constantan_materials() {
@@ -25,15 +35,24 @@ print("START: Thermal Foundation: Gregtech Materials : Create");
     }
 
     function add_signalum_materials() {
-        //Blank
+        /*
+            Material: 3 x Copper + Silver + 4 x Redstone
+            Color: 0xDE3E00
+        */
     }
 
     function add_lumium_materials() {
-        //Blank
+        /*
+            Material: 
+            Color: 0xDEE598
+        */
     }
 
     function add_enderium_materials() {
-        //Blank
+        /*
+            Material: 
+            Color: 0x0D5B5C
+        */
     }
     
     add_manainfused_materials();
