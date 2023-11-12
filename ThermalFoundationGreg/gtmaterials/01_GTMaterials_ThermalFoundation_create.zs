@@ -39,7 +39,13 @@ print("START: Thermal Foundation: Gregtech Materials : Create");
             Material: 3 x Copper + Silver + 4 x Redstone
             Color: 0xDE3E00
         */
-        
+        var signalum_material_builder = MaterialBuilder(32002, "signalum")
+        .ingot()
+        .color(0xDE3E00)
+        .iconSet("METALLIC")
+        .components([<material:copper> * 3, <material:silver> * 1, <material:redstone> * 4])
+        .flags(["generate_plate", "generate_gear"])
+        .build();
     }
 
     function add_lumium_materials() {
