@@ -43,6 +43,8 @@ print("START: Thermal Foundation: Remove Recipes");
             recipes.remove(<thermalfoundation:material:292>);
         //!signalum
             recipes.remove(<thermalfoundation:material:293>);
+        //!lumium
+            recipes.remove(<thermalfoundation:material:294>);
     }
     
     Remove_Gear_Recipes();
