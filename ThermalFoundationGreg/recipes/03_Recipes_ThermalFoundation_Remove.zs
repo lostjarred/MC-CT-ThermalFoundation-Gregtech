@@ -39,6 +39,8 @@ print("START: Thermal Foundation: Remove Recipes");
             recipes.remove(<thermalfoundation:material:290>);
         //bronze
             recipes.remove(<thermalfoundation:material:291>);
+        //!constantan
+            recipes.remove(<thermalfoundation:material:292>);
     }
     
     Remove_Gear_Recipes();
