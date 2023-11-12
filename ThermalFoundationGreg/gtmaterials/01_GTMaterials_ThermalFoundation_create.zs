@@ -64,9 +64,16 @@ print("START: Thermal Foundation: Gregtech Materials : Create");
 
     function add_enderium_materials() {
         /*
-            Material: 
+            Material: 3 x Lead + Platinum + 4 X Ender Peal
             Color: 0x0D5B5C
         */
+        var enderium_material_builder = MaterialBuilder(32004, "enderium")
+        .ingot()
+        .color(0x0D5B5C)
+        .iconSet("METALLIC")
+        .components([<material:lead> * 3, <material:platinum> * 1, <material:ender_pearl> * 4])
+        .flags(["generate_plate", "generate_gear"])
+        .build();
     }
     
     add_manainfused_materials();

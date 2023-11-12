@@ -20,12 +20,14 @@ Add Material not in Gregtech
     - ManaInfused/Mithril
     - Signalum
     - Lumium
+    - Enderium
 
 ==-- GregTech Ids --==   
     ManaInfused - 32000
     Constantan - 32001
     Signalum - 32002
     Lumium - 32003
+    Enderium - 32004
 
 ==--CraftTweaker Prioritys--==
     NONE - GTMaterials
@@ -34,5 +36,3 @@ Add Material not in Gregtech
     500 - add recipes tools
 
 ==-- TODO --==
-Gregtech Add Materials
-        - Enderium
