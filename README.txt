@@ -19,9 +19,9 @@ Add Material not in Gregtech
     - Constantan
     - ManaInfused/Mithril
 
-==-- GregTech Ids --==
-    Constantan - 32000
-    ManaInfused - 32001
+==-- GregTech Ids --==   
+    ManaInfused - 32000
+    Constantan - 32001
 
 ==--CraftTweaker Prioritys--==
     NONE - GTMaterials

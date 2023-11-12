@@ -11,7 +11,7 @@ print("START: Thermal Foundation: Gregtech Materials : Create");
             Material: Iron ?
             Color: 0x659ABB
         */
-        var manainfused_material_builder = MaterialBuilder(32001, "mithril")
+        var manainfused_material_builder = MaterialBuilder(32000, "mithril")
         .ingot()
         .color(0x659ABB)
         .iconSet("SHINY")
@@ -25,7 +25,7 @@ print("START: Thermal Foundation: Gregtech Materials : Create");
             Material: Copper + Nickel
             Color: 0xD4A24B
         */
-        var constantan_material_builder = MaterialBuilder(32000, "constantan")
+        var constantan_material_builder = MaterialBuilder(32001, "constantan")
         .ingot()
         .color(0xD4A24B)
         .iconSet("METALLIC")
@@ -39,6 +39,7 @@ print("START: Thermal Foundation: Gregtech Materials : Create");
             Material: 3 x Copper + Silver + 4 x Redstone
             Color: 0xDE3E00
         */
+        
     }
 
     function add_lumium_materials() {
