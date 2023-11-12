@@ -15,6 +15,11 @@ Replaces
         -Excavators
         -Shields
 
+Add Material not in Gregtech
+    - Constantan
+
+==-- GregTech Ids --==
+    Constantan - 32000
 
 ==--CraftTweaker Prioritys--==
     NONE - GTMaterials
@@ -25,7 +30,6 @@ Replaces
 ==-- TODO --==
 Gregtech Add Materials
         - Mitheral - Mana Infused
-        - Constantan
         - Signalum
         - Lumium
         - Enderium
