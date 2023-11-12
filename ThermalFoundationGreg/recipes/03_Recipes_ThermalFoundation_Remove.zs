@@ -45,6 +45,8 @@ print("START: Thermal Foundation: Remove Recipes");
             recipes.remove(<thermalfoundation:material:293>);
         //!lumium
             recipes.remove(<thermalfoundation:material:294>);
+        //!enderium
+            recipes.remove(<thermalfoundation:material:295>);
     }
     
     Remove_Gear_Recipes();
