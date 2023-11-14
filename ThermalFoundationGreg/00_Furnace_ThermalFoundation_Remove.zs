@@ -22,6 +22,7 @@ print("START: Thermal Foundation: Furnace: Remove");
         //platinum
             furnace.remove(<thermalfoundation:material:134>, <ore:orePlatinum>);
         //iridium
+            furnace.remove(<thermalfoundation:material:135>, <ore:oreIridium>);
     }
     
     remove_ore_ingot_recipes();
