@@ -25,8 +25,8 @@ Add Material not in Gregtech
 Replace furnace recipes for thermal ores and dusts to give gregtech ingots
 
 Hides common ingots, nuggets, plates, gears. 
-
-
+==-- Intall --== 
+    Copy thermalfoundationgreg to your scripts folder
 
 ==-- Gregtech Materials --==
     ! Material info ! this pack does not name these materials, you will need to either supply a resource pack 
@@ -61,3 +61,6 @@ Replace GT Gears with Thermal Gears
     - Constantan
     - lumium
     - Enderium
+
+==-- Usage --==
+do whatever you like with it, if you find it useful a credit would be nice
