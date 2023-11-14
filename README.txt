@@ -41,7 +41,7 @@ or use content tweaker to add the en_us.lang needed .minecraft/resources/content
 ==--CraftTweaker Prioritys--==
     NONE - GTMaterials
     600 - utils tool recipes
-    510 - Remove recipes tools, Remove Recipes
+    510 - Remove recipes tools, Remove Recipes, Remove Furnace Recipes
     500 - add recipes tools
 
 ==-- TODO --==
