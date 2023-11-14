@@ -10,6 +10,7 @@ print("START: Thermal Foundation: Furnace: Remove");
         //copper
             furnace.remove(<thermalfoundation:material:128>, <ore:oreCopper>);
         //tin
+            furnace.remove(<thermalfoundation:material:129>, <ore:oreTin>);
         //silver
         //lead
         //aluminum
