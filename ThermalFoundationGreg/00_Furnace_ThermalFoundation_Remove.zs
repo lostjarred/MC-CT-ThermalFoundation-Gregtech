@@ -8,21 +8,32 @@ print("START: Thermal Foundation: Furnace: Remove");
     */
     function remove_ore_ingot_recipes() {
         //copper
-            furnace.remove(<thermalfoundation:material:128>, <ore:oreCopper>);
+            furnace.remove(<thermalfoundation:material:128>, <thermalfoundation:ore>);
         //tin
-            furnace.remove(<thermalfoundation:material:129>, <ore:oreTin>);
+            furnace.remove(<thermalfoundation:material:129>, <thermalfoundation:ore:1>);
         //silver
-            furnace.remove(<thermalfoundation:material:130>, <ore:oreSilver>);
+            furnace.remove(<thermalfoundation:material:130>, <thermalfoundation:ore:2>);
         //lead
-            furnace.remove(<thermalfoundation:material:131>, <ore:oreLead>);
+            furnace.remove(<thermalfoundation:material:131>, <thermalfoundation:ore:3>);
         //aluminum
-            furnace.remove(<thermalfoundation:material:132>, <ore:oreAluminum>);
+            furnace.remove(<thermalfoundation:material:132>, <thermalfoundation:ore:4>);
         //nickel
-            furnace.remove(<thermalfoundation:material:133>, <ore:oreNickel>);
+            furnace.remove(<thermalfoundation:material:133>, <thermalfoundation:ore:5>);
         //platinum
-            furnace.remove(<thermalfoundation:material:134>, <ore:orePlatinum>);
+            furnace.remove(<thermalfoundation:material:134>, <thermalfoundation:ore:6>);
         //iridium
-            furnace.remove(<thermalfoundation:material:135>, <ore:oreIridium>);
+            furnace.remove(<thermalfoundation:material:135>, <thermalfoundation:ore:7>);
+    }
+
+    function remove_dust_ingot_recipe() {
+        //copper
+        //tin
+        //silver
+        //lead
+        //aluminum
+        //nickel
+        //platinum
+        //iridium
     }
     
     remove_ore_ingot_recipes();
