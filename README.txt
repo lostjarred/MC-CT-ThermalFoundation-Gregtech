@@ -55,19 +55,6 @@ Replace GT Gears with Thermal Gears
     - Enderium
 
 JEI Hide
-    - NUGGETS
-        - Copper
-        - Tin
-        - Silver
-        - Lead
-        - Aluminum
-        - Nickel
-        - Platinum
-        - Iridium
-        - Steel
-        - Electrum
-        - Invar
-        - Bronze
     - PLATES
         - Copper
         - Tin
