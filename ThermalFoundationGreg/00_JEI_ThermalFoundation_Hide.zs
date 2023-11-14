@@ -39,6 +39,22 @@ print("START: Thermal Foundation: JEI: Hide");
             mods.jei.JEI.removeAndHide(<thermalfoundation:material:99>);
     }
 
+    function jei_hide_ingots() {
+        //copper
+            mods.jei.JEI.removeAndHide(<thermalfoundation:material:128>);
+        //tin
+        //silver
+        //lead
+        //aluminum
+        //nickel
+        //platinum
+        //iridium
+        //steel
+        //electrum
+        //invar
+        //bronze
+    }
+
     function jei_hide_gears() {
         //copper
             mods.jei.JEI.removeAndHide(<thermalfoundation:material:256>);
@@ -68,5 +84,6 @@ print("START: Thermal Foundation: JEI: Hide");
 
     jei_hide_dusts();
     jei_hide_gears();
+    jei_hide_ingots();
 
 print("END: Thermal Foundation: JEI: Hide");
