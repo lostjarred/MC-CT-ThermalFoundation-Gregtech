@@ -144,6 +144,7 @@ print("START: Thermal Foundation: JEI: Hide");
         //invar
             mods.jei.JEI.removeAndHide(<thermalfoundation:material:354>);
         //bronze
+            mods.jei.JEI.removeAndHide(<thermalfoundation:material:355>);
     }
 
     jei_hide_dusts();
