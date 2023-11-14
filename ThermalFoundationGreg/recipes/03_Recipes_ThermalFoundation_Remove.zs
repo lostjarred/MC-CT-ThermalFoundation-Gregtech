@@ -50,7 +50,10 @@ print("START: Thermal Foundation: Remove Recipes");
     }
 
     function remove_misc_recipes() {
-        //bronze dust 
+        //electrum blend
+            recipes.remove(<thermalfoundation:material:97>);
+        //invar blend
+        //bronze blend 
             recipes.remove(<thermalfoundation:material:99>);
     }
     
