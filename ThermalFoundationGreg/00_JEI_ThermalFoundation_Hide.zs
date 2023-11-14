@@ -26,6 +26,7 @@ print("START: Thermal Foundation: JEI: Hide");
         //nickel
             mods.jei.JEI.removeAndHide(<thermalfoundation:material:69>);
         //platinum
+            mods.jei.JEI.removeAndHide(<thermalfoundation:material:70>);
         //iridium
         //steel
         //electrum
