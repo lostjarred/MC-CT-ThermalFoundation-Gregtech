@@ -94,6 +94,9 @@ print("START: Thermal Foundation: JEI: Hide");
     }
 
     function jei_hide_gears() {
+        //iron
+            mods.jei.JEI.removeAndHide(<thermalfoundation:material:24>);
+        //gold
         //copper
             mods.jei.JEI.removeAndHide(<thermalfoundation:material:256>);
         //tin
