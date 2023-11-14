@@ -16,14 +16,27 @@ print("START: Thermal Foundation: Furnace: Add");
             furnace.addRecipe(<gregtech:meta_ingot:100>, <ore:oreSilver>, 0.5);
         //lead
             furnace.addRecipe(<gregtech:meta_ingot:55>, <ore:oreLead>, 0.5);
-        //aluminum
+        //aluminum - Needs blast furnace
         //nickel
             furnace.addRecipe(<gregtech:meta_ingot:69>, <ore:oreNickel>, 0.5);
         //platinum
             furnace.addRecipe(<gregtech:meta_ingot:80>, <ore:orePlatinum>, 0.5);
-        //iridium
+        //iridium - Needs blast furnace
+    }
+
+    function add_dust_ingot_recipes() {
+        //copper
+            furnace.addRecipe(<gregtech:meta_ingot:25>, <ore:dustCopper>, 0.5);
+        //tin
+        //silver
+        //lead
+        //aluminum - Needs blast furnace
+        //nickel
+        //platinum
+        //iridium - Needs blast furnace
     }
 
     add_ore_ingot_recipes();
+    add_dust_ingot_recipes();
 
 print("END: Thermal Foundation: Furnace: Add");
