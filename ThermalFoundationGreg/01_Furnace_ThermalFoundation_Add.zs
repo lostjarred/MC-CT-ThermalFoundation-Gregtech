@@ -20,6 +20,7 @@ print("START: Thermal Foundation: Furnace: Add");
         //nickel
             furnace.addRecipe(<gregtech:meta_ingot:69>, <ore:oreNickel>, 0.5);
         //platinum
+            furnace.addRecipe(<gregtech:meta_ingot:80>, <ore:orePlatinum>, 0.5);
         //iridium
     }
 
