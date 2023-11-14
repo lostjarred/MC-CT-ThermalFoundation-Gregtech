@@ -53,6 +53,7 @@ print("START: Thermal Foundation: Remove Recipes");
         //electrum blend
             recipes.remove(<thermalfoundation:material:97>);
         //invar blend
+            recipes.remove(<thermalfoundation:material:98>);
         //bronze blend 
             recipes.remove(<thermalfoundation:material:99>);
     }
