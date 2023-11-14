@@ -1,0 +1,15 @@
+https://github.com/lostjarred/MC-CT-ThermalFoundation-Gregtech
+
+==-- GregTech Ids --==   
+    ManaInfused - 32000
+    Constantan - 32001
+    Signalum - 32002
+    Lumium - 32003
+    Enderium - 32004
+
+==--CraftTweaker Prioritys--==
+    NONE - GTMaterials
+    600 - utils tool recipes
+    510 - Remove recipes tools, Remove Recipes, Remove Furnace Recipes
+    500 - add recipes tools, Add Furnace Recipes
+    200 - JEI Hide
