@@ -45,3 +45,78 @@ or use content tweaker to add the en_us.lang needed .minecraft/resources/content
     500 - add recipes tools
 
 ==-- TODO --==
+
+Replace GT Gears with Thermal Gears
+    - ManaInfused
+    - Signalum
+    - Constantan
+    - lumium
+    - Enderium
+
+Replace furnace recipes for
+    - Copper
+    - Tin
+    - Silver
+    - Lead
+    - Aluminum
+    - Nickel
+    - Platinum
+    - Iridium
+    - Steel
+    - Electrum
+    - Invar
+    - Bronze
+
+JEI Hide
+    - INGOTS
+        - Copper
+        - Tin
+        - Silver
+        - Lead
+        - Aluminum
+        - Nickel
+        - Platinum
+        - Iridium
+        - Steel
+        - Electrum
+        - Invar
+        - Bronze
+    - PLATES
+        - Copper
+        - Tin
+        - Silver
+        - Lead
+        - Aluminum
+        - Nickel
+        - Platinum
+        - Iridium
+        - Steel
+        - Electrum
+        - Invar
+        - Bronze
+    - GEARS
+        - Copper
+        - Tin
+        - Silver
+        - Lead
+        - Aluminum
+        - Nickel
+        - Platinum
+        - Iridium
+        - Steel
+        - Electrum
+        - Invar
+        - Bronze
+    - DUSTS
+        - Copper
+        - Tin
+        - Silver
+        - Lead
+        - Aluminum
+        - Nickel
+        - Platinum
+        - Iridium
+        - Steel
+        - Electrum
+        - Invar
+        - Bronze
