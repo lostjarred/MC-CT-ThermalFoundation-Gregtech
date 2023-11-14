@@ -48,6 +48,12 @@ print("START: Thermal Foundation: Remove Recipes");
         //!enderium
             recipes.remove(<thermalfoundation:material:295>);
     }
+
+    function remove_misc_recipes() {
+        //bronze dust 
+            recipes.remove(<thermalfoundation:material:99>);
+    }
     
     Remove_Gear_Recipes();
+    remove_misc_recipes();
 print("END: Thermal Foundation: Remove Recipes");
