@@ -13,6 +13,7 @@ print("START: Thermal Foundation: Furnace: Add");
         //tin
             furnace.addRecipe(<gregtech:meta_ingot:112>, <ore:oreTin>, 0.5);
         //silver
+            furnace.addRecipe(<gregtech:meta_ingot:100>, <ore:oreSilver>, 0.5);
         //lead
         //aluminum
         //nickel
