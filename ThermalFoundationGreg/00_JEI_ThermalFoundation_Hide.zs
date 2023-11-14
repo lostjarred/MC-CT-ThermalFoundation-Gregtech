@@ -63,6 +63,7 @@ print("START: Thermal Foundation: JEI: Hide");
         //invar
             mods.jei.JEI.removeAndHide(<thermalfoundation:material:162>);
         //bronze
+            mods.jei.JEI.removeAndHide(<thermalfoundation:material:163>);
     }
 
     function jei_hide_gears() {
