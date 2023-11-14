@@ -35,6 +35,7 @@ print("START: Thermal Foundation: Furnace: Remove");
         //lead
             furnace.remove(<thermalfoundation:material:131>, <thermalfoundation:material:67>);
         //aluminum
+            furnace.remove(<thermalfoundation:material:132>, <thermalfoundation:material:68>);
         //nickel
         //platinum
         //iridium
