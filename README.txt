@@ -43,6 +43,7 @@ or use content tweaker to add the en_us.lang needed .minecraft/resources/content
     600 - utils tool recipes
     510 - Remove recipes tools, Remove Recipes, Remove Furnace Recipes
     500 - add recipes tools, Add Furnace Recipes
+    200 - JEI Hide
 
 ==-- TODO --==
 
