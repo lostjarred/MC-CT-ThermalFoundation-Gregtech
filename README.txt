@@ -54,22 +54,8 @@ Replace GT Gears with Thermal Gears
     - lumium
     - Enderium
 
-Replace furnace recipes for
-    - Copper
-    - Tin
-    - Silver
-    - Lead
-    - Aluminum
-    - Nickel
-    - Platinum
-    - Iridium
-    - Steel
-    - Electrum
-    - Invar
-    - Bronze
-
 JEI Hide
-    - INGOTS
+    - NUGGETS
         - Copper
         - Tin
         - Silver
