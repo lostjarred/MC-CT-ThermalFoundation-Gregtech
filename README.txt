@@ -108,6 +108,8 @@ JEI Hide
         - Invar
         - Bronze
     - DUSTS
+        - Iron
+        - Gold
         - Copper
         - Tin
         - Silver
