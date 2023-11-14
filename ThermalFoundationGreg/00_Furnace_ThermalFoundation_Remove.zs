@@ -42,6 +42,8 @@ print("START: Thermal Foundation: Furnace: Remove");
             furnace.remove(<thermalfoundation:material:134>, <thermalfoundation:material:70>);
         //iridium
             furnace.remove(<thermalfoundation:material:135>, <thermalfoundation:material:71>);
+        //steel
+            furnace.remove(<thermalfoundation:material:160>, <thermalfoundation:material:96>);
     }
     
     remove_ore_ingot_recipes();

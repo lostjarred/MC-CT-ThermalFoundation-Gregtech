@@ -39,6 +39,7 @@ print("START: Thermal Foundation: Furnace: Add");
         //platinum
             furnace.addRecipe(<gregtech:meta_ingot:80>, <ore:dustPlatinum>, 0.5);
         //iridium - Needs blast furnace
+        //steel - Needs blast furnace
     }
 
     add_ore_ingot_recipes();
