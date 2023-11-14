@@ -126,6 +126,7 @@ print("START: Thermal Foundation: JEI: Hide");
         //tin
             mods.jei.JEI.removeAndHide(<thermalfoundation:material:321>);
         //silver
+            mods.jei.JEI.removeAndHide(<thermalfoundation:material:322>);
         //lead
         //aluminium
         //nickel
