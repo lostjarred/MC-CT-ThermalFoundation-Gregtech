@@ -140,6 +140,7 @@ print("START: Thermal Foundation: JEI: Hide");
         //steel
             mods.jei.JEI.removeAndHide(<thermalfoundation:material:352>);
         //electrum
+            mods.jei.JEI.removeAndHide(<thermalfoundation:material:353>);
         //invar
         //bronze
     }
