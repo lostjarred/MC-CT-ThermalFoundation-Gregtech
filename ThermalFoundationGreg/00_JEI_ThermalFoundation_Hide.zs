@@ -98,6 +98,9 @@ print("START: Thermal Foundation: JEI: Hide");
             mods.jei.JEI.removeAndHide(<thermalfoundation:material:24>);
         //gold
             mods.jei.JEI.removeAndHide(<thermalfoundation:material:25>);
+        //diamond
+            mods.jei.JEI.removeAndHide(<thermalfoundation:material:26>);
+        //emerald
         //copper
             mods.jei.JEI.removeAndHide(<thermalfoundation:material:256>);
         //tin
