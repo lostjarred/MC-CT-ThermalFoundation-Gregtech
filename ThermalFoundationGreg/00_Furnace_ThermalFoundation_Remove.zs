@@ -27,6 +27,7 @@ print("START: Thermal Foundation: Furnace: Remove");
 
     function remove_dust_ingot_recipe() {
         //copper
+            furnace.remove(<thermalfoundation:material:128>, <thermalfoundation:material:64>);
         //tin
         //silver
         //lead
@@ -37,5 +38,6 @@ print("START: Thermal Foundation: Furnace: Remove");
     }
     
     remove_ore_ingot_recipes();
+    remove_dust_ingot_recipe();
 
 print("END: Thermal Foundation: Furnace: Remove");
