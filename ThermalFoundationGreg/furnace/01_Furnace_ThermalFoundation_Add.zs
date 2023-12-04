@@ -42,6 +42,8 @@ print("START: Thermal Foundation: Furnace: Add");
         //steel - Needs blast furnace
         //electrum
             furnace.addRecipe(<gregtech:meta_ingot:277>, <ore:dustElectrum>);
+        //invar
+            furnace.addRecipe(<gregtech:meta_ingot:287>, <ore:dustInvar>);
         
     }
 
