@@ -44,6 +44,8 @@ print("START: Thermal Foundation: Furnace: Add");
             furnace.addRecipe(<gregtech:meta_ingot:277>, <ore:dustElectrum>);
         //invar
             furnace.addRecipe(<gregtech:meta_ingot:287>, <ore:dustInvar>);
+        //bronze
+            furnace.addRecipe(<gregtech:meta_ingot:260>, <ore:dustBronze>);
         
     }
 
