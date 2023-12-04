@@ -47,6 +47,7 @@ print("START: Thermal Foundation: Furnace: Remove");
         //electrum
             furnace.remove(<thermalfoundation:material:161>, <thermalfoundation:material:97>);
         //invar
+            furnace.remove(<thermalfoundation:material:162>, <thermalfoundation:material:98>);
         //bronze
     }
     
