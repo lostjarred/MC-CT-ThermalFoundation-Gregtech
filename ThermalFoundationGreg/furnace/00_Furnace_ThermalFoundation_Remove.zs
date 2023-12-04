@@ -49,6 +49,7 @@ print("START: Thermal Foundation: Furnace: Remove");
         //invar
             furnace.remove(<thermalfoundation:material:162>, <thermalfoundation:material:98>);
         //bronze
+            furnace.remove(<thermalfoundation:material:163>, <thermalfoundation:material:99>);
     }
     
     remove_ore_ingot_recipes();
