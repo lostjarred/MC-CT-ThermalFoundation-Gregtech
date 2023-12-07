@@ -53,6 +53,9 @@ Hides common ingots, nuggets, plates, gears.
     500 - add recipes tools, Add Furnace Recipes
     200 - JEI Hide
 
+==-- Known Issues --==
+    will get errors in log about duplicate furnace recipes - Removing recipes only causes no recipes to be ingame
+
 ==-- TODO --==
 
 Replace GT Gears with Thermal Gears
