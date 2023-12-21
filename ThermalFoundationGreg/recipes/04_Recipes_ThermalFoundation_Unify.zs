@@ -32,6 +32,7 @@ print("START: Thermal Foundation: Recipe: Unify");
         //electrum
             gen_uni_recipe(<gregtech:meta_ingot:277>, <thermalfoundation:material:161>);
         //invar
+            gen_uni_recipe(<gregtech:meta_ingot:287>, <thermalfoundation:material:162>);
         //bronze
         //
     }
