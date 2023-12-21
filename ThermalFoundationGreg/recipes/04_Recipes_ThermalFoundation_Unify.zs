@@ -15,6 +15,18 @@ print("START: Thermal Foundation: Recipe: Unify");
     function unify_ingots() {
         //copper
             gen_uni_recipe(<gregtech:meta_ingot:25>, <thermalfoundation:material:128>);
+        //tin
+            gen_uni_recipe(<gregtech:meta_ingot:112>, <thermalfoundation:material:129>);
+        //silver
+        //lead
+        //aluminium
+        //nickel
+        //platinum
+        //steel
+        //electrum
+        //invar
+        //bronze
+        //
     }
 
     unify_ingots();
