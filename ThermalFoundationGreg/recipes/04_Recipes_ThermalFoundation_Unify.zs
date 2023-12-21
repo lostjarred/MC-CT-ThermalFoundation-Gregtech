@@ -24,6 +24,7 @@ print("START: Thermal Foundation: Recipe: Unify");
         //aluminium
             gen_uni_recipe(<gregtech:meta_ingot:2>, <thermalfoundation:material:132>);
         //nickel
+            gen_uni_recipe(<gregtech:meta_ingot:69>, <thermalfoundation:material:133>);
         //platinum
         //steel
         //electrum
