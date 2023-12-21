@@ -11,5 +11,5 @@ https://github.com/lostjarred/MC-CT-ThermalFoundation-Gregtech
     NONE - GTMaterials
     600 - utils tool recipes
     510 - Remove recipes tools, Remove Recipes, Remove Furnace Recipes
-    500 - add recipes tools, Add Furnace Recipes
+    500 - add recipes tools, Add Furnace Recipes, Unify recipes
     200 - JEI Hide
